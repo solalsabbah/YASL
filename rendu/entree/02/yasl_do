@@ -1,0 +1,56 @@
+#!yasl
+
+2#!
+
+# 3 == ? (
+
+0:eval:1
+0:=:2 0:!
+0:eval:1
+
+"-":2
+2:%== ? (1:-:4 4:print "\n" print # exit)
+2:!
+
+"+":2
+2:%== ? (1:+:4 4:print "\n" print # exit)
+2:!
+
+"*":2
+2:%== ? (1:*:4 4:print "\n" print # exit)
+2:!
+
+"/":2
+2:%== ? (1:/:4 4:print "\n" print # exit)
+2:!
+
+"%":2
+2:%== ? (1:%:4 4:print "\n" print # exit)
+2:!
+
+"<":2
+2:%== ? (1:<:4 4:print "\n" print # exit)
+2:!
+
+">":2
+2:%== ? (1:>:4 4:print "\n" print # exit)
+2:!
+
+"<=":2
+2:%== ? (1:<=:4 4:print "\n" print # exit)
+2:!
+
+"=>":2
+2:%== ? (1:=>:4 4:print "\n" print # exit)
+2:!
+
+"==":2
+2:%== ? (1:==:4 4:print "\n" print # exit)
+2:!
+
+"!=":2
+2:%== ? (1:!=:4 4:print "\n" print # exit)
+2:!
+
+"Operator is not valid" print
+)

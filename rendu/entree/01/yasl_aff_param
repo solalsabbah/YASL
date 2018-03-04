@@ -1,0 +1,6 @@
+#!yasl
+
+2 #!
+
+#
+%? #(print "\n" print)
